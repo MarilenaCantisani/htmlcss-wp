@@ -19,3 +19,28 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Body */
+
+/* Header */
+
+/* Logo */
+#header-logo {
+    width: 120px;
+}
+
+header nav .nav-bar {
+    list-style-type: none;
+}
+
+/* Nav */
+.nav-bar li {
+    display: inline-block;
+    padding: 20px 0;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #bebebe;
+    font-size: 12px;
+    margin-right: 10px;
+}
