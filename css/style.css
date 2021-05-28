@@ -25,6 +25,13 @@ body {
     clear: both;
 }
 
+.bg-opacity {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    border-radius: 10px;
+}
+
+
 /* Body */
 
 /* Header */
@@ -56,19 +63,16 @@ header nav .nav-bar {
 .main-banner-top {
     height: 380px;
     border-radius: 10px;
-    opacity: 1;
     background-image: url(../img/banner.jpg);
-    background-color: rgba(0, 0, 0, 0.5);
     background-position: 50%;
     margin: 10px 0 40px 0;
 }
 
-main .main-banner-top > .text-banner {
+main .main-banner-top .text-banner {
     display: inline-block;
     width: 42%;
     color: white;
     padding: 240px 40px;
-
 }
 
 .text-banner h2 {
@@ -94,37 +98,44 @@ main .main-banner-top > .text-banner {
 .section-columns {
     margin: 30px 0;
 }
+
+.sidebar, .central-column {
+    float: left;
+}
+
 .sidebar {
     width: 20%;
-    float: left;
 }
 
 .central-column {
     width: 60%;
     padding: 0 20px;
-    float: left;
 }
 
 .section-columns .bg-image {
     height: 150px;
 }
 
+.bg-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
 .sidebar-sx .bg-image {
     background-image: url(../img/img-1.jpg);
-    background-position: center;
-    border-radius: 10px;    
+    background-size: 80%;
 }
+
 
 .central-column .bg-image {
     background-image: url(../img/banner-2.jpg);
-    background-position: center;
-    border-radius: 10px;  
+    background-size: 80%;
 }
 
 .sidebar-dx .bg-image {
     background-image: url(../img/img-3.jpg);
-    background-position: center;
-    border-radius: 10px;    
+    background-size: 120%;
 }
 
 .section-columns .text-column {
@@ -142,8 +153,14 @@ main .main-banner-top > .text-banner {
 }
 
 
+
 /* Footer */
 footer {
     text-align: center;
     color: #262626;
+    margin: 50px 0;
 }
+
+footer .fa-heart {
+    color: #ff0000;
+} 
