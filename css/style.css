@@ -44,3 +44,35 @@ header nav .nav-bar {
     font-size: 12px;
     margin-right: 10px;
 }
+
+/* Main */
+.main-banner-top {
+    height: 380px;
+    border-radius: 10px;
+    opacity: 1;
+    background-image: url(../img/banner.jpg);
+    background-position: 50%;
+    margin: 10px 0 40px 0;
+}
+
+main .main-banner-top > .text-banner {
+    display: inline-block;
+    width: 42%;
+    color: white;
+    padding: 240px 40px;
+
+}
+
+.text-banner h2 {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.text-banner p {
+    font-size: 13px;
+
+}
+
+#header-main h3 {
+        font-size: 30px;
+}
