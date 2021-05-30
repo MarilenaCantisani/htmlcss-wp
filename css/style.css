@@ -125,6 +125,7 @@ main .main-banner-top .text-banner {
 .sidebar-sx .bg-image {
     background-image: url(../img/img-1.jpg);
     background-size: 80%;
+    opacity: 0.8;
 }
 
 
@@ -153,7 +154,6 @@ main .main-banner-top .text-banner {
 }
 
 
-
 /* Footer */
 footer {
     text-align: center;
@@ -164,3 +164,5 @@ footer {
 footer .fa-heart {
     color: #ff0000;
 } 
+
+
