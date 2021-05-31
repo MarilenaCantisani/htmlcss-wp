@@ -25,12 +25,6 @@ body {
     clear: both;
 }
 
-.bg-opacity {
-    background-color: rgba(0, 0, 0, 0.2);
-    height: 100%;
-    border-radius: 10px;
-}
-
 
 /* Body */
 
@@ -63,7 +57,7 @@ header nav .nav-bar {
 .main-banner-top {
     height: 380px;
     border-radius: 10px;
-    background-image: url(../img/banner.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/banner.jpg);
     background-position: 50%;
     margin: 10px 0 40px 0;
 }
@@ -123,20 +117,19 @@ main .main-banner-top .text-banner {
 }
 
 .sidebar-sx .bg-image {
-    background-image: url(../img/img-1.jpg);
-    background-size: 80%;
-    opacity: 0.8;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/img-1.jpg);
+    background-size: cover;
 }
 
 
 .central-column .bg-image {
-    background-image: url(../img/banner-2.jpg);
-    background-size: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/banner-2.jpg);
+    background-size: cover;
 }
 
 .sidebar-dx .bg-image {
-    background-image: url(../img/img-3.jpg);
-    background-size: 120%;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/img-3.jpg);
+    background-size: cover;
 }
 
 .section-columns .text-column {
